@@ -57,3 +57,4 @@ while True:
 
 # if e.errno != errno.ECONNRESET:
 conn.close()  # When we are out of the loop, we're done, close
+s.close()
